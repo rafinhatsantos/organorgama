@@ -2,9 +2,8 @@ import './Botao.css'
 
 const Botao = (props) => {
     return (<button className='botao'>
-        {props.texto}
-        </button>
-    )
+        {props.children}
+    </button>)
 }
-
+console.log(Botao)
 export default Botao
