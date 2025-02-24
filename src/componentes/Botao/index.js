@@ -5,5 +5,5 @@ const Botao = (props) => {
         {props.children}
     </button>)
 }
-console.log(Botao)
+
 export default Botao

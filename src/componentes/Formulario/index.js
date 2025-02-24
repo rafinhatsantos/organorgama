@@ -59,7 +59,6 @@ const Formulario = (props) => {
                 <Botao>
                     Criar Card
                 </Botao>
-                
             </form>
         </section>
     )
