@@ -9,7 +9,7 @@ const Formulario = (props) => {
     const [nome, setNome] = useState('')
     const [cargo, setCargo] = useState('')
     const [imagem, setImagem] = useState('')
-    const [time, setTime] = useState('')
+    const [time, setTime] = useState('');
 
     const aoSalvar = (evento) => {
         evento.preventDefault()
@@ -45,7 +45,7 @@ const Formulario = (props) => {
                 />
                 <CampoTexto
                     label="Imagem"
-                    placeholder="Digite o endereço da imagem" 
+                    placeholder="https://github.com/seuuser.png" 
                     valor={imagem}
                     aoAlterado={valor => setImagem(valor)}
                 />
